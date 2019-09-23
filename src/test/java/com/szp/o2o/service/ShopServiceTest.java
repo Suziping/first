@@ -37,10 +37,10 @@ public class ShopServiceTest extends BaseTest {
         shop.setArea(area);
         shop.setOwner(owner);
         shop.setShopCategory(shopCategory);
-        shop.setShopName("测试的店铺4");
-        shop.setShopAddr("test3");
+        shop.setShopName("测试的店铺6");
+        shop.setShopAddr("test6");
         shop.setPhone("2351349371");
-        shop.setShopDesc("test3");
+        shop.setShopDesc("test6");
         shop.setCreateTime(new Date());
         shop.setEnableStatus(ShopStateEnum.CHECK.getState());
         shop.setAdvice("审核中");
