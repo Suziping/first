@@ -19,7 +19,7 @@ public class ShopCategory {
     private Date lastEditTime;
 
     //上级Id
-    private Long parentId;
+    private ShopCategory parent;
 
     public Long getShopCategoryId() {
         return shopCategoryId;
@@ -77,14 +77,11 @@ public class ShopCategory {
         this.lastEditTime = lastEditTime;
     }
 
-    public Long getParentId() {
-        return parentId;
+    public ShopCategory getParent() {
+        return parent;
     }
 
-    public void setParentId(Long parentId) {
-        this.parentId = parentId;
-    }
-
-    public void setParent(ShopCategory parentCategory) {
+    public void setParent(ShopCategory parent) {
+        this.parent = parent;
     }
 }
